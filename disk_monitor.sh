@@ -1,6 +1,8 @@
 #!/bin/bash
 
 set -euo pipefail
+#created Directory 
+mkdir -p "$HOME/system.log"
 
 # if nothing in $1 then number is 80
 THRESHOLD=${1:-80}
